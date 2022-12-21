@@ -24,7 +24,7 @@ Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [ɪᴛs-ᴀʀɪʏᴀɴ](https://t.me/Prince_ar
                     InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ sᴜᴘᴘᴏʀᴛ ❣️", url="https://t.me/ariyan_discus"),
+                    InlineKeyboardButton("❣️ sᴜᴘᴘᴏʀᴛ ❣️", url="https://t.me/SankiWorldMF"),
                     InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
                 ]
             ]
