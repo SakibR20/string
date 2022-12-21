@@ -11,4 +11,4 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1001126273421"))
 OWNER_ID = int(getenv("OWNER_ID", "5761513990"))
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Xx:Xx@cluster0.mwyxrf1.mongodb.net/?retryWrites=true&w=majority")
-MUST_JOIN = getenv("MUST_JOIN", "ariyan_server")
+MUST_JOIN = getenv("MUST_JOIN", "NixaWorld")
