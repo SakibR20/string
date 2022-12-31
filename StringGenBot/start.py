@@ -12,12 +12,10 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""Hᴇʏ {msg.from_user.mention}, 
+        text=f"""🥀 ʜᴇʏ {msg.from_user.mention},
 
-Tʜɪs ɪs {me2},
-A sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
-
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [ɪᴛs-ᴀʀɪʏᴀɴ](https://t.me/Prince_ariyan_143) 🥀""",
+ᴛʜɪs ɪs {m2},
+ ᴛʜᴇ ᴍᴏsᴛ ᴜsᴇʟᴇss ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴇᴠᴇʀ\nᴍᴀᴅᴇ, ᴀʟɪᴠᴇ sɪɴᴄᴇ {}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
