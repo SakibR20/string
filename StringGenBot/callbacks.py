@@ -15,19 +15,19 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
     elif query.startswith("pyrogram") or query.startswith("telethon"):
         try:
             if query == "pyrogram":
-                await callback_query.answer()
+                await callback_query.answer(» ᴛʜᴇ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴇᴅ ᴡɪʟʟ ʙᴇ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.", show_alert=True)
                 await generate_session(bot, callback_query.message)
             elif query == "pyrogram1":
-                await callback_query.answer()
+                await callback_query.answer(» ᴛʜᴇ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴇᴅ ᴡɪʟʟ ʙᴇ ᴏғ ᴩʏʀᴏɢʀᴀᴍ ᴠ2.", show_alert=True)
                 await generate_session(bot, callback_query.message, old_pyro=True)
             elif query == "pyrogram_bot":
                 await callback_query.answer("» ᴛʜᴇ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴇᴅ ᴡɪʟʟ ʙᴇ ᴏғ ᴩʏʀᴏɢʀᴀᴍ ᴠ2 ʙᴏᴛ.", show_alert=True)
                 await generate_session(bot, callback_query.message, is_bot=True)
             elif query == "telethon_bot":
-                await callback_query.answer()
+                await callback_query.answer(» ᴛʜᴇ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴇᴅ ᴡɪʟʟ ʙᴇ ᴏғ ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ.", show_alert=True)
                 await generate_session(bot, callback_query.message, telethon=True, is_bot=True)
             elif query == "telethon":
-                await callback_query.answer()
+                await callback_query.answer(» ᴛʜᴇ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴇᴅ ᴡɪʟʟ ʙᴇ ᴏғ ᴛᴇʟᴇᴛʜᴏɴ.", show_alert=True)
                 await generate_session(bot, callback_query.message, telethon=True)
         except Exception as e:
             print(traceback.format_exc())
