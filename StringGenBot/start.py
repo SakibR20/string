@@ -1,3 +1,4 @@
+import time
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
@@ -15,7 +16,7 @@ async def start(bot: Client, msg: Message):
         text=f"""🥀 ʜᴇʏ {msg.from_user.mention},
 
 ᴛʜɪs ɪs {me2},
-ᴀ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ,\nᴀʟɪᴠᴇ sɪɴᴄᴇ {uptime}""",
+ᴀ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ,\nᴀʟɪᴠᴇ sɪɴᴄᴇ ....""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
