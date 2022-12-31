@@ -14,7 +14,7 @@ async def start(bot: Client, msg: Message):
         chat_id=msg.chat.id,
         text=f"""🥀 ʜᴇʏ {msg.from_user.mention},
 
-ᴛʜɪs ɪs {m2},
+ᴛʜɪs ɪs {me2},
 ᴀ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ,\nᴀʟɪᴠᴇ sɪɴᴄᴇ {uptime}""",
         reply_markup=InlineKeyboardMarkup(
             [
