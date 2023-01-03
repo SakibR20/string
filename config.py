@@ -6,7 +6,7 @@ load_dotenv()
 API_ID = getenv("API_ID", "23842900")
 API_HASH = getenv("API_HASH", "d21e95895cf2a5b83b0167fdd3b6e541")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5849276991:AAEWV5nIWojKOqrDrY02Yrx5-5QCAv-v1dg")
+BOT_TOKEN = getenv("BOT_TOKEN", "5915949693:AAG4wNicmHokxeKaTlARgY-Fgb8vhf84UY4")
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001632995162"))
 OWNER_ID = int(getenv("OWNER_ID", "5761513990"))
 
