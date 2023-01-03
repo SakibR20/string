@@ -10,14 +10,13 @@ def filter(cmd: str):
 
 @Client.on_message(filter("start"))
 async def start(bot: Client, msg: Message):
-uptime = get_readable_time((time.time() - StartTime))
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
         text=f"""🥀 ʜᴇʏ {msg.from_user.mention},
 
 ᴛʜɪs ɪs {me2},
-ᴀ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ,\nᴀʟɪᴠᴇ sɪɴᴄᴇ {uptime}""",
+ᴀ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
