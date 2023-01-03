@@ -17,7 +17,7 @@ uptime = get_readable_time((time.time() - StartTime))
         text=f"""🥀 ʜᴇʏ {msg.from_user.mention},
 
 ᴛʜɪs ɪs {me2},
-ᴀ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ,\nᴀʟɪᴠᴇ sɪɴᴄᴇ ....""",
+ᴀ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ,\nᴀʟɪᴠᴇ sɪɴᴄᴇ {uptime}""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
