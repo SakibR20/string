@@ -11,6 +11,7 @@ def filter(cmd: str):
 @Client.on_message(filter("start"))
 async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
+uptime = get_readable_time((time.time() - StartTime))
     await bot.send_message(
         chat_id=msg.chat.id,
         text=f"""🥀 ʜᴇʏ {msg.from_user.mention},
